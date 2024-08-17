@@ -4,9 +4,4 @@ Agregar en script mikrotik
 /ip/dns/adlist/remove [find file="hostssteven"]  
 /ip/dns/adlist/add file=hostssteven ssl-verify=no                                                                                                                                                                                             
 /file/remove [find name="hostssteven"]          
-/file/remove [find name="hostssteven"]           
-/tool/fetch url="https://raw.githubusercontent.com/aarntesla/devs0/master/hostssteven" output=file  dst-path=hostssteven
-/ip/dns/adlist/remove [find file="hostssteven"]  
-/ip/dns/adlist/add file=hostssteven ssl-verify=no                                                                                                                                                                                             
-/file/remove [find name="hostssteven"]          
 
